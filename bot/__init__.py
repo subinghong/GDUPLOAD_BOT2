@@ -9,6 +9,7 @@ logging.basicConfig(
 LOGGER = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
+LOGGER.error('!!!!!!!!!!!!!!!!!!!!-----------')
 
 ENV = bool(os.environ.get('ENV', False))
 try:
